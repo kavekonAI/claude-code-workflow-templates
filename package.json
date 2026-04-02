@@ -1,0 +1,27 @@
+{
+  "name": "claude-code-templates",
+  "version": "1.0.0",
+  "description": "Curated collection of CLAUDE.md templates for Claude Code users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "track-stars": "echo \"Check GitHub stars at: https://github.com/yourusername/claude-templates\""
+  },
+  "keywords": [
+    "claude",
+    "templates",
+    "workflow",
+    "development",
+    "productivity"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/claude-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/claude-templates/issues"
+  },
+  "homepage": "https://github.com/yourusername/claude-templates#readme"
+}
