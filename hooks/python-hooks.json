@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "before_script_execution": {
+      "description": "Run before executing Python scripts",
+      "actions": [
+        "check_python_version",
+        "validate_imports",
+        "setup_logging"
+      ]
+    },
+    "after_function_definition": {
+      "description": "Run after defining new functions",
+      "actions": [
+        "add_docstrings",
+        "add_type_hints",
+        "write_unit_tests"
+      ]
+    },
+    "before_data_processing": {
+      "description": "Run before processing data",
+      "actions": [
+        "validate_input_data",
+        "check_memory_usage",
+        "setup_progress_tracking"
+      ]
+    }
+  }
+}
