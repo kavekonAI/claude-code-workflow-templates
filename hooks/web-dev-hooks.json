@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "before_html_generation": {
+      "description": "Run before generating HTML files",
+      "actions": [
+        "validate_html_structure",
+        "check_for_semantic_elements",
+        "ensure_accessibility_attributes"
+      ]
+    },
+    "after_css_update": {
+      "description": "Run after CSS changes",
+      "actions": [
+        "validate_css",
+        "check_browser_compatibility",
+        "optimize_css_selectors"
+      ]
+    },
+    "before_js_implementation": {
+      "description": "Run before implementing JavaScript features",
+      "actions": [
+        "plan_error_handling",
+        "consider_performance_impact",
+        "check_for_memory_leaks"
+      ]
+    }
+  }
+}
